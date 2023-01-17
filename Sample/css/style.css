@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    background-color: antiquewhite;
+}
+
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+
+}
+
+.body{
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: antiquewhite; */
+}
+
+.code{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+
+.btn{
+    position: absolute;
+    margin-top: 8px;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  /* border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff; */
+  /* float: right; */
+
+}
+
+#sign_up{
+    /* background-color: #fff; */
+    /* border: 1px solid black; */
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#request_demo{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+}
+
+
+.card{
+    display: flex;
+
+    background: #fff;
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-top: 40px;
+    margin: 0 auto; */
+    padding: 20px;
+}
